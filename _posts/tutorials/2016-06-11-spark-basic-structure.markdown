@@ -101,7 +101,7 @@ Localization in Java is pretty straightforward. You create two properties files 
     ResourceBundle.getBundle("localization/messages", new Locale("en"));
 </code></pre>
 
-The setup is a bit more elborate if you clone the application (I created a small wrapper object with two methods), but the basics are extremely simple, and only uses native Java.
+The setup is a bit more elaborate if you clone the application (I created a small wrapper object with two methods), but the basics are extremely simple, and only uses native Java.
 
 ## Rendering views
 Rendering views is taken care of by another static helper, the **ViewUtil**:
